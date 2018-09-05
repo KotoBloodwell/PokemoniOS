@@ -210,6 +210,7 @@
 		1E2E2F042138CD190005C9E0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1EC2DEB8213B0E1900C27FBD /* New Group */,
 				1E2E2F0F2138D0250005C9E0 /* PokemonList */,
 			);
 			path = Scenes;
@@ -258,6 +259,13 @@
 				1E2E2F152138D03D0005C9E0 /* PokemonListInteractor.swift */,
 			);
 			path = PokemonList;
+			sourceTree = "<group>";
+		};
+		1EC2DEB8213B0E1900C27FBD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		E7DFB7057E7BF7638A4F9FE3 /* Frameworks */ = {
