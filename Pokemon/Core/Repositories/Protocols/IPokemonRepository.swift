@@ -10,5 +10,5 @@ import Foundation
 
 
 protocol IPokemonRepository {
-    func getPokemonList(completionHandler:@escaping (_ response: [PokemonList.Response]?, _ error: NSError?) -> Void)
+    func getPokemonList(completionHandler:@escaping (_ response: [PokemonList.Pokemon]?, _ error: NSError?) -> Void)
 }
