@@ -1,3 +1,4 @@
+
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -6,7 +7,8 @@ target 'Pokemon' do
   use_frameworks!
 
   # Pods for Pokemon
-    pod 'Alamofire', '~> 4.7'
+    pod 'Alamofire'
+    pod 'ObjectMapper'
 
   target 'PokemonTests' do
     inherit! :search_paths
