@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="10" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="94" id="mS3-qZ-vaP">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="94" id="mS3-qZ-vaP" customClass="PokemonListTableViewCell" customModule="Pokemon" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="94"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mS3-qZ-vaP" id="wDt-Uj-wiL">
@@ -91,6 +91,13 @@
                                                 <constraint firstItem="BAb-kA-suc" firstAttribute="leading" secondItem="Rew-mA-kUb" secondAttribute="trailing" constant="8" id="t4u-Gn-87x"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="pokemonHeightLabel" destination="AAH-8y-fOC" id="Gq0-go-lPk"/>
+                                            <outlet property="pokemonImageView" destination="Rew-mA-kUb" id="N3E-f2-9Md"/>
+                                            <outlet property="pokemonNameLabel" destination="AXv-VH-mrM" id="Eop-j8-nFd"/>
+                                            <outlet property="pokemonTypeLabel" destination="rtj-54-utW" id="njy-TC-Gje"/>
+                                            <outlet property="pokemonWeightLabel" destination="wsP-HA-vJ2" id="Bpp-5V-arS"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

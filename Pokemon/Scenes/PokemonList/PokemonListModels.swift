@@ -32,6 +32,7 @@ enum PokemonList
         var name: String?
         var image: String?
         var weight: String?
+        var height: String?
         var color: String?
         var specie: String?
         
@@ -39,11 +40,12 @@ enum PokemonList
             
         }
         
-        init(id: String?, name: String?, image: String?, weight: String?, color: String?, specie: String?) {
+        init(id: String?, name: String?, image: String?, weight: String?, height: String?, color: String?, specie: String?) {
             self.id = id
             self.name = name
             self.image = image
             self.weight = weight
+            self.height = height
             self.color = color
             self.specie = specie
         }
@@ -53,6 +55,7 @@ enum PokemonList
             name <- map["Title"]
             image <- map["Subtitle"]
             weight <- map["Description"]
+            height <- map["Description"]
             color <- map["Image"]
             specie <- map["isbn"]
         }
